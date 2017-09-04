@@ -9,12 +9,7 @@ html {
 
 .navbar {
     padding: 0;
-    bottom: 0;
-}
-
-footer {
-    position: absolute;
-    height: 60px;
+    margin: 0; 
 }
 
 @media (min-width: 640px) {
