@@ -54,11 +54,11 @@
                 <p>A:
                     <pre>
                         <code>
-                                function myFunction(numOne, numTwo)
+                                var myNum = function myFunction(numOne, numTwo)
                                 {   
-                                   result = numOne + numTwo; 
-                                   console.log(result(5, 7));
-                                };     
+                                   return numOne + numTwo;  
+                                }
+                                console.log(myNum(5, 7));    
                         </code>
                     </pre>
                 </p>
@@ -85,7 +85,9 @@
                 <p>A:
                     <pre>
                         <code>
-
+                                var movieList = function movieList(movieName, starName){ this.movieName = movieName; this.starName = lastName;
+                                    this.greetFormally = function greetFormally() { return "Greetings, Mr. or Ms. " + this.lastName; };
+                                    } var starOne = new Star("Tom", "Hanks"); var starTwo = new Star("Matt", "Damen");
                         </code>
                     </pre>
                 </p>
