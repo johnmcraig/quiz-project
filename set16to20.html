@@ -51,25 +51,18 @@
                 <h3>Question 16</h3>
                 <p>Q: Write a function that takes in two numbers as parameters, adds them together, and then returns the result.
                     * This should be submitted as working code.</p>
-                <p>A: 
+                <p>A:
                     <pre>
                         <code>
-                                function concatenate(first, last)
-                                {
-                                   var full;
-                                   full = first + last;
-                                   return full;
-                                }
-                                
-                                function secondFunction()
-                                {
-                                   var result;
-                                   result = concatenate('Zara', 'Ali');
-                                   document.write(result);
-                                }       
+                                function myFunction(numOne, numTwo)
+                                {   
+                                   result = numOne + numTwo; 
+                                   console.log(result(5, 7));
+                                };     
                         </code>
                     </pre>
                 </p>
+                <button id="print-button">Run code</button>
             </div>
 
             <div class="col col-md-12">
@@ -143,6 +136,7 @@
         crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
         crossorigin="anonymous"></script>
+    <script src="script.js"></script>
 </body>
 
 
