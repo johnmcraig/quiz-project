@@ -86,12 +86,13 @@
                     <pre>
                         <code>
                         var movieList = function movieList(movieName, starName){ 
-                            this.movieName = movieName; this.starName = lastName;
+                            this.movieName = movieName; this.starName = starName;
                             this.movieList = function movieList() { 
                             return thisMovie + "starring " + this.starName; 
                                 };
                             } 
-                        var starOne = new Star("Tom", "Hanks"); var starTwo = new Star("Matt", "Damen");
+                        var starOne = new Star("Tom", "Hanks"); var starTwo = new Star("Matt", "Damon");
+                        var movieName = new Movie("Saving Private Ryan");
                         </code>
                     </pre>
                 </p>
