@@ -54,7 +54,7 @@
                 <p>A:
                     <pre>
                         <code>
-                                var myNum = function myFunction(numOne, numTwo)
+                                function myFunction(numOne, numTwo)
                                 {   
                                    return numOne + numTwo;  
                                 }
@@ -72,7 +72,11 @@
                 <p>A:
                     <pre>
                         <code>
-                                    
+                            var myNum = function myNum(numOne, numTwo) {
+                                var myNum = numOne + numTwo;
+                                return myNum;
+                            }
+                            console.log(myNmu(8, 11));
                         </code>
                     </pre>
                 </p>
