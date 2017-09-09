@@ -89,14 +89,13 @@
                 <p>A:
                     <pre>
                         <code>
-                        var movieList = function movieList(movieName, starName){ 
-                            this.movieName = movieName; this.starName = starName;
-                            this.movieList = function movieList() { 
-                            return thisMovie + "starring " + this.starName; 
-                                };
-                            } 
-                        var starOne = new Star("Tom", "Hanks"); var starTwo = new Star("Matt", "Damon");
-                        var movieName = new Movie("Saving Private Ryan");
+                        var Movie = function Movie (title, star){
+                            var newObj = {};
+                            newObj.title = title;
+                            newObj.star = star;
+                            return newObj;
+                        }
+                        var movie1 = new Movie("Saving Rivate Ryan", "Tom Hanks");
                         </code>
                     </pre>
                 </p>
